@@ -1,0 +1,25 @@
+body {
+    background-color: #000000;
+}
+
+/* found after googline "cool css elements" https://css-tricks.com/lets-look-50-interesting-css-properties-values/ */
+.clip-text {
+  background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
+  background-size: cover;
+  background-position: center;
+
+  -webkit-background-clip: text;
+  color: transparent;
+  width: 700px;
+  height: 700px;
+  box-sizing: border-box;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 100px;
+  flex-shrink: 0;
+
+  padding: 18% 0;
+  font-family: "Lucida", sans-serif;
+}
+
+

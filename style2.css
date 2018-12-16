@@ -1,0 +1,24 @@
+/* format images */
+img {
+    height: 600px;
+    width: 600;
+}
+
+/* Format text content across sites */
+.content {
+    font-family: "Lucida", sans-serif;
+    text-align: center;
+}
+
+/* From bootstrap, formats navigation bar */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
