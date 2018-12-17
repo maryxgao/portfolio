@@ -2,14 +2,15 @@ body {
     background-color: #ffffff;
 }
 
+/* https://stackoverflow.com/questions/41090647/css-background-image-that-can-scroll */
 .image {
   background-image: url("background_slant.png");
   background-position:center;
   background-size: 100% 100%;
-
   height:300vh;
   }
 
+/* from https://stackoverflow.com/questions/16392952/css-to-make-bootstrap-navbar-transparent */
 .navbar.transparent.navbar-inverse .navbar-inner {
    border-width: 0px;
    -webkit-box-shadow: 0px 0px;
@@ -18,31 +19,52 @@ body {
    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
-
  }
 
  .content {
    font-family: 'Karla';
-   font-size: 20px;
+   font-size: 26px;
    color: black;
    position: relative;
-   float: left;
-   top: 14%;
+   top: 2%;
    left: 50%;
-   transform: translate(-50%, -50%);
-   padding-right: 30%;
-   padding-left: 30%;
+   transform: translate(-50%, 50%);
+   padding-right: 35%;
+   padding-left: 35%;
  }
 
  .headshot {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 12%;
 }
 
  a {
    font-family: 'Karla';
-   font-size: 20px;
+   font-size: 23px;
    color: black;
  }
+
+/* Fontawesome */
+i.fa.fa-linkedin, i.fa.fa-github, i.fa.fa-instagram{
+  border-radius: 100%;
+  font-size: 40px;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px;
+  text-align: center;
+  width: 50px;
+}
+i.fa.fa-linkedin{
+  border: 1px solid #B4D3C0;
+  color: #B4D3C0;
+}
+i.fa.fa-github{
+  border: 1px solid #B4D3C0;
+  color: #B4D3C0;
+}
+i.fa.fa-instagram{
+  border: 1px solid #B4D3C0;
+  color: #B4D3C0;
+}
