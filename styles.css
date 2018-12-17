@@ -1,25 +1,48 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
-/* found after googline "cool css elements" https://css-tricks.com/lets-look-50-interesting-css-properties-values/ */
-.clip-text {
-  background: url(http://i.giphy.com/fsULJFFGv8X3G.gif);
-  background-size: cover;
-  background-position: center;
+.image {
+  background-image: url("background_slant.png");
+  background-position:center;
+  background-size: 100% 100%;
 
-  -webkit-background-clip: text;
-  color: transparent;
-  width: 700px;
-  height: 700px;
-  box-sizing: border-box;
-  font-size: 120px;
-  font-weight: bold;
-  line-height: 100px;
-  flex-shrink: 0;
+  height:300vh;
+  }
 
-  padding: 18% 0;
-  font-family: "Lucida", sans-serif;
+.navbar.transparent.navbar-inverse .navbar-inner {
+   border-width: 0px;
+   -webkit-box-shadow: 0px 0px;
+   box-shadow: 0px 0px;
+   background-color: rgba(0,0,0,0.0);
+   background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+
+ }
+
+ .content {
+   font-family: 'Karla';
+   font-size: 20px;
+   color: black;
+   position: relative;
+   float: left;
+   top: 14%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding-right: 30%;
+   padding-left: 30%;
+ }
+
+ .headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
-
+ a {
+   font-family: 'Karla';
+   font-size: 20px;
+   color: black;
+ }
