@@ -37,7 +37,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 12%;
+  width: 10%;
 }
 
  a {
@@ -45,6 +45,7 @@ body {
    font-size: 23px;
    color: black;
  }
+
 
 /* Fontawesome */
 i.fa.fa-linkedin, i.fa.fa-github, i.fa.fa-instagram{
@@ -69,7 +70,7 @@ i.fa.fa-instagram{
   color: #92B39F;
 }
 
-/* Gallery, from https://codepen.io/joe-watkins/pen/RPZbrW/ */ 
+/* Gallery, from https://codepen.io/joe-watkins/pen/RPZbrW/ */
 
 * {
   box-sizing: boder-box;
@@ -169,4 +170,11 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+footer, h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 23px;
+  color: black;
+  text-align: center;
 }
