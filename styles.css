@@ -2,14 +2,6 @@ body {
     background-color: #ffffff;
 }
 
-/* https://stackoverflow.com/questions/41090647/css-background-image-that-can-scroll */
-.image {
-  background-image: url("background_slant.png");
-  background-position:center;
-  background-size: 100% 100%;
-  height:300vh;
-  }
-
 /* from https://stackoverflow.com/questions/16392952/css-to-make-bootstrap-navbar-transparent */
 .navbar.transparent.navbar-inverse .navbar-inner {
    border-width: 0px;
@@ -70,6 +62,12 @@ i.fa.fa-instagram{
   color: #92B39F;
 }
 
+.code_gallery{
+  position: relative;
+  top: 6%;
+}
+
+
 /* Gallery, from https://codepen.io/joe-watkins/pen/RPZbrW/ */
 * {
   box-sizing: boder-box;
@@ -86,6 +84,10 @@ body {
   transition: -webkit-transform .6s ease;
   transition: transform .6s ease;
   transition: transform .6s ease, -webkit-transform .6s ease;
+  background-image: url("background.png");
+  background-position:center;
+  background-size: 100% 100%;
+  height:300vh;
 }
 @media (min-width: 640px) {
   #main {
@@ -176,4 +178,11 @@ footer, h2 {
   font-size: 23px;
   color: black;
   text-align: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
