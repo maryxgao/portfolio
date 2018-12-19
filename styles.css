@@ -11,6 +11,7 @@ body {
    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-size: auto;
  }
 
  .content {
@@ -38,6 +39,11 @@ body {
    color: black;
  }
 
+ a:hover{
+   font-family: 'Karla', sans-serif;
+   font-size: 23px;
+   color: #B56357;
+ }
 
 /* Fontawesome */
 i.fa.fa-linkedin, i.fa.fa-github, i.fa.fa-instagram{
@@ -53,18 +59,30 @@ i.fa.fa-linkedin{
   border: 1.5px solid #92B39F;
   color: #92B39F;
 }
+i.fa.fa-linkedin:hover{
+  border: 1.5px solid #B56357;
+  color: #B56357;
+}
 i.fa.fa-github{
   border: 1.5px solid #92B39F;
   color: #92B39F;
+}
+i.fa.fa-github:hover{
+  border: 1.5px solid #B56357;
+  color: #B56357;
 }
 i.fa.fa-instagram{
   border: 1.5px solid #92B39F;
   color: #92B39F;
 }
+i.fa.fa-instagram:hover{
+  border: 1.5px solid #B56357;
+  color: #B56357;
+}
 
 .code_gallery{
   position: relative;
-  top: 6%;
+  top: 27%;
 }
 
 
