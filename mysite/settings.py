@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'marygao-portfolio.herokuapp.com',
+    'www.marygao.com'
+    'marygao.com'
     '127.0.0.1',
     'localhost'
 ]
