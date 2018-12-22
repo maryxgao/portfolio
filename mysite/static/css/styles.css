@@ -15,7 +15,7 @@ body {
 
  .content {
    font-family: 'Karla', sans-serif;
-   font-size: 26px;
+   font-size: 20px;
    color: black;
    position: relative;
    top: 2%;
@@ -34,13 +34,13 @@ body {
 
  a {
    font-family: 'Karla', sans-serif;
-   font-size: 23px;
+   font-size: 14px;
    color: black;
  }
 
  a:hover{
    font-family: 'Karla', sans-serif;
-   font-size: 23px;
+   font-size: 14px;
    color: #B56357;
  }
 
@@ -81,11 +81,11 @@ i.fa.fa-instagram:hover{
 
 .code_gallery{
   position: relative;
-  top: 27%;
+  top: 15%;
 }
 .text-copy-wrapper{
   font-family: 'Karla', sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   color: black;
   padding-right: 5%;
   padding-left: 5%;
@@ -199,7 +199,7 @@ body {
 
 footer, h2 {
   font-family: 'Karla', sans-serif;
-  font-size: 23px;
+  font-size: 14px;
   color: black;
   text-align: center;
 }
@@ -209,4 +209,14 @@ footer{
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+/* mobile */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
 }
