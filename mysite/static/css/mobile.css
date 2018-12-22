@@ -1,0 +1,223 @@
+body {
+    background-color: #ffffff;
+}
+
+/* from https://stackoverflow.com/questions/16392952/css-to-make-bootstrap-navbar-transparent */
+.navbar.transparent.navbar-inverse .navbar-inner {
+   border-width: 0px;
+   -webkit-box-shadow: 0px 0px;
+   box-shadow: 0px 0px;
+   background-color: rgba(0,0,0,0.0);
+   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-size: auto;
+ }
+
+ .content {
+   font-family: 'Karla', sans-serif;
+   font-size: 20px;
+   color: black;
+   position: relative;
+   top: 2%;
+   left: 50%;
+   transform: translate(-50%, 50%);
+   padding-right: 10%;
+   padding-left: 10%;
+ }
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+ a {
+   font-family: 'Karla', sans-serif;
+   font-size: 16px;
+   color: black;
+ }
+
+ a:hover{
+   font-family: 'Karla', sans-serif;
+   font-size: 16px;
+   color: #B56357;
+ }
+
+/* Fontawesome */
+i.fa.fa-linkedin, i.fa.fa-github, i.fa.fa-instagram{
+  border-radius: 100%;
+  font-size: 40px;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px;
+  width: 50px;
+  margin-top: 200px;
+}
+i.fa.fa-linkedin{
+  border: 1.5px solid #92B39F;
+  color: #92B39F;
+}
+i.fa.fa-linkedin:hover{
+  border: 1.5px solid #B56357;
+  color: #B56357;
+}
+i.fa.fa-github{
+  border: 1.5px solid #92B39F;
+  color: #92B39F;
+}
+i.fa.fa-github:hover{
+  border: 1.5px solid #B56357;
+  color: #B56357;
+}
+i.fa.fa-instagram{
+  border: 1.5px solid #92B39F;
+  color: #92B39F;
+}
+i.fa.fa-instagram:hover{
+  border: 1.5px solid #B56357;
+  color: #B56357;
+}
+
+.code_gallery{
+  position: relative;
+  top: 30%;
+}
+.text-copy-wrapper{
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  color: black;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+
+/* Gallery, from https://codepen.io/joe-watkins/pen/RPZbrW/ */
+* {
+  box-sizing: boder-box;
+}
+
+body {
+  margin: 0;
+}
+
+#main {
+  position: relative;
+  z-index: 20;
+  background: #fff;
+  transition: -webkit-transform .6s ease;
+  transition: transform .6s ease;
+  transition: transform .6s ease, -webkit-transform .6s ease;
+  background-image: url("../img/background.png");
+  background-position:center;
+  background-size: 100% 100%;
+  height:300vh;
+}
+
+@media (min-width: 750px) {
+  #main {
+    padding: 1em;
+  }
+}
+
+.fake-section {
+  background: #eee;
+  height: 300px;
+}
+
+.tiles-a {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.tiles-a ul {
+  margin: 0;
+  padding: 0;
+}
+.tiles-a li {
+  list-style: none;
+}
+@media (min-width: 750px) {
+  .tiles-a li {
+    float: left;
+    width: 33.33%;
+  }
+}
+.tiles-a a {
+  margin: 1em;
+  display: block;
+  background: #222;
+  padding-top: 73%;
+  height: 0;
+}
+
+#aside {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: #eee;
+  overflow-y: scroll;
+  z-index: 10;
+}
+#aside img {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+#aside .wrapper {
+  padding: 1em;
+}
+#aside .close {
+  width: 25px;
+  display: block;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.show-detail {
+  overflow: hidden;
+}
+.show-detail #main {
+  -webkit-transform: translateX(-60%);
+          transform: translateX(-60%);
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+footer, h2 {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/* mobile */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+@-ms-viewport {
+  width: device-width ;
+}
