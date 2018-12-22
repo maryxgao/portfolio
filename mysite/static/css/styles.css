@@ -34,13 +34,13 @@ body {
 
  a {
    font-family: 'Karla', sans-serif;
-   font-size: 14px;
+   font-size: 16px;
    color: black;
  }
 
  a:hover{
    font-family: 'Karla', sans-serif;
-   font-size: 14px;
+   font-size: 16px;
    color: #B56357;
  }
 
@@ -81,7 +81,7 @@ i.fa.fa-instagram:hover{
 
 .code_gallery{
   position: relative;
-  top: 17%;
+  top: 22%;
 }
 .text-copy-wrapper{
   font-family: 'Karla', sans-serif;
