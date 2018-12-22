@@ -52,7 +52,7 @@ i.fa.fa-linkedin, i.fa.fa-github, i.fa.fa-instagram{
   line-height: 50px;
   margin: 5px;
   width: 50px;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 i.fa.fa-linkedin{
   border: 1.5px solid #92B39F;
@@ -81,7 +81,7 @@ i.fa.fa-instagram:hover{
 
 .code_gallery{
   position: relative;
-  top: 15%;
+  top: 17%;
 }
 .text-copy-wrapper{
   font-family: 'Karla', sans-serif;
